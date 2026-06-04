@@ -10,7 +10,7 @@ from ai.eye_detector import EyeDetector
 from ai.feature_extractor import FeatureExtractor
 from ai.predictor import Predictor
 
-from supabase_client import supabase
+from backend.supabase_client import supabase
 
 
 app = Flask(__name__)
